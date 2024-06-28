@@ -1,3 +1,46 @@
-h1{
-    color: blueviolet;
+body {
+    margin: 0;
+    padding-top: 0;
+}
+
+header a {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-decoration: underline; 
+}
+header a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.page-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.banner-image img {
+    display: block;
+    width: 10px;
+    height: 300px;
+}
+
+.info {
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 5px;
 }
